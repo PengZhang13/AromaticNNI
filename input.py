@@ -237,6 +237,134 @@ species(
 )
 
 species(
+    label='123456OH',
+    structure=adjacencyList(
+        """
+		1 C u0 p0 c0 {2,D} {6,S} {7,S}
+		2 C u0 p0 c0 {1,D} {3,S} {8,S}
+		3 C u0 p0 c0 {2,S} {4,D} {9,S}
+		4 C u0 p0 c0 {3,D} {5,S} {10,S}
+		5 C u0 p0 c0 {4,S} {6,D} {11,S}
+		6 C u0 p0 c0 {1,S} {5,D} {12,S}
+		7 O u0 p2 c0 {1,S} {13,S}
+		8 O u0 p2 c0 {2,S} {14,S}
+		9 O u0 p2 c0 {3,S} {15,S}
+		10 O u0 p2 c0 {4,S} {16,S}
+		11 O u0 p2 c0 {5,S} {17,S}
+		12 O u0 p2 c0 {6,S} {18,S}
+		13 H u0 p0 c0 {7,S}
+		14 H u0 p0 c0 {8,S}
+		15 H u0 p0 c0 {9,S}
+		16 H u0 p0 c0 {10,S}
+		17 H u0 p0 c0 {11,S}
+		18 H u0 p0 c0 {12,S}
+        """),
+)
+
+species(
+    label='1234OH_56methyl',
+    structure=adjacencyList(
+        """
+		1 C u0 p0 c0 {2,D} {4,S} {7,S}
+		2 C u0 p0 c0 {1,D} {3,S} {8,S}
+		3 C u0 p0 c0 {2,S} {5,D} {9,S}
+		4 C u0 p0 c0 {1,S} {6,D} {10,S}
+		5 C u0 p0 c0 {3,D} {6,S} {11,S}
+		6 C u0 p0 c0 {4,D} {5,S} {12,S}
+		7 C u0 p0 c0 {1,S} {13,S} {14,S} {15,S}
+		8 C u0 p0 c0 {2,S} {16,S} {17,S} {18,S}
+		9 O u0 p2 c0 {3,S} {19,S}
+		10 O u0 p2 c0 {4,S} {20,S}
+		11 O u0 p2 c0 {5,S} {21,S}
+		12 O u0 p2 c0 {6,S} {22,S}
+		13 H u0 p0 c0 {7,S}
+		14 H u0 p0 c0 {7,S}
+		15 H u0 p0 c0 {7,S}
+		16 H u0 p0 c0 {8,S}
+		17 H u0 p0 c0 {8,S}
+		18 H u0 p0 c0 {8,S}
+		19 H u0 p0 c0 {9,S}
+		20 H u0 p0 c0 {10,S}
+		21 H u0 p0 c0 {11,S}
+		22 H u0 p0 c0 {12,S}
+        """),
+)
+
+species(
+    label='12OH_34ethyl_56methyl',
+    structure=adjacencyList(
+        """
+		1 C u0 p0 c0 {2,D} {3,S} {4,S}
+		2 C u0 p0 c0 {1,D} {6,S} {7,S}
+		3 C u0 p0 c0 {1,S} {5,D} {9,S}
+		4 C u0 p0 c0 {1,S} {10,S} {15,S} {16,S}
+		5 C u0 p0 c0 {3,D} {8,S} {12,S}
+		6 C u0 p0 c0 {2,S} {11,S} {17,S} {18,S}
+		7 C u0 p0 c0 {2,S} {8,D} {13,S}
+		8 C u0 p0 c0 {5,S} {7,D} {14,S}
+		9 C u0 p0 c0 {3,S} {19,S} {20,S} {21,S}
+		10 C u0 p0 c0 {4,S} {25,S} {26,S} {27,S}
+		11 C u0 p0 c0 {6,S} {28,S} {29,S} {30,S}
+		12 C u0 p0 c0 {5,S} {22,S} {23,S} {24,S}
+		13 O u0 p2 c0 {7,S} {31,S}
+		14 O u0 p2 c0 {8,S} {32,S}
+		15 H u0 p0 c0 {4,S}
+		16 H u0 p0 c0 {4,S}
+		17 H u0 p0 c0 {6,S}
+		18 H u0 p0 c0 {6,S}
+		19 H u0 p0 c0 {9,S}
+		20 H u0 p0 c0 {9,S}
+		21 H u0 p0 c0 {9,S}
+		22 H u0 p0 c0 {12,S}
+		23 H u0 p0 c0 {12,S}
+		24 H u0 p0 c0 {12,S}
+		25 H u0 p0 c0 {10,S}
+		26 H u0 p0 c0 {10,S}
+		27 H u0 p0 c0 {10,S}
+		28 H u0 p0 c0 {11,S}
+		29 H u0 p0 c0 {11,S}
+		30 H u0 p0 c0 {11,S}
+		31 H u0 p0 c0 {13,S}
+		32 H u0 p0 c0 {14,S}
+        """),
+)
+
+species(
+    label='12OH_34vinyl_56methyl',
+    structure=adjacencyList(
+        """
+		1 C u0 p0 c0 {2,S} {3,D} {7,S}
+		2 C u0 p0 c0 {1,S} {4,D} {9,S}
+		3 C u0 p0 c0 {1,D} {5,S} {8,S}
+		4 C u0 p0 c0 {2,D} {6,S} {10,S}
+		5 C u0 p0 c0 {3,S} {6,D} {12,S}
+		6 C u0 p0 c0 {4,S} {5,D} {11,S}
+		7 C u0 p0 c0 {1,S} {15,S} {16,S} {17,S}
+		8 C u0 p0 c0 {3,S} {18,S} {19,S} {20,S}
+		9 C u0 p0 c0 {2,S} {13,D} {21,S}
+		10 C u0 p0 c0 {4,S} {14,D} {22,S}
+		11 O u0 p2 c0 {6,S} {24,S}
+		12 O u0 p2 c0 {5,S} {23,S}
+		13 C u0 p0 c0 {9,D} {25,S} {26,S}
+		14 C u0 p0 c0 {10,D} {27,S} {28,S}
+		15 H u0 p0 c0 {7,S}
+		16 H u0 p0 c0 {7,S}
+		17 H u0 p0 c0 {7,S}
+		18 H u0 p0 c0 {8,S}
+		19 H u0 p0 c0 {8,S}
+		20 H u0 p0 c0 {8,S}
+		21 H u0 p0 c0 {9,S}
+		22 H u0 p0 c0 {10,S}
+		23 H u0 p0 c0 {12,S}
+		24 H u0 p0 c0 {11,S}
+		25 H u0 p0 c0 {13,S}
+		26 H u0 p0 c0 {13,S}
+		27 H u0 p0 c0 {14,S}
+		28 H u0 p0 c0 {14,S}
+        """),
+)
+
+species(
     label='testAromatics',
     structure=adjacencyList(
         """
