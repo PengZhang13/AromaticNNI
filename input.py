@@ -585,3 +585,30 @@ species(
 		32 H u0 p0 c0 {18,S}
         """),
 )
+
+species(
+    label='1vinyl_26formyl',
+    structure=adjacencyList(
+        """
+		1  C u0 p0 c0 {2,S} {4,D} {12,S}
+		2  C u0 p0 c0 {1,S} {3,D} {13,S}
+		3  O u0 p2 c0 {2,D}
+		4  C u0 p0 c0 {1,D} {5,S} {7,S}
+		5  C u0 p0 c0 {4,S} {6,D} {14,S}
+		6  C u0 p0 c0 {5,D} {15,S} {16,S}
+		7  C u0 p0 c0 {4,S} {8,S} {10,D}
+		8  C u0 p0 c0 {7,S} {9,D} {17,S}
+		9  O u0 p2 c0 {8,D}
+		10 C u0 p0 c0 {7,D} {11,S} {18,S}
+		11 C u0 p0 c0 {10,S} {12,D} {19,S}
+		12 C u0 p0 c0 {1,S} {11,D} {20,S}
+		13 H u0 p0 c0 {2,S}
+		14 H u0 p0 c0 {5,S}
+		15 H u0 p0 c0 {6,S}
+		16 H u0 p0 c0 {6,S}
+		17 H u0 p0 c0 {8,S}
+		18 H u0 p0 c0 {10,S}
+		19 H u0 p0 c0 {11,S}
+		20 H u0 p0 c0 {12,S}
+        """),
+)
