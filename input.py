@@ -480,3 +480,108 @@ species(
 		30 H u0 p0 c0 {16,S}
         """),
 )
+
+species(
+    label='123456formyl',
+    structure=adjacencyList(
+        """
+		1  C u0 p0 c0 {2,S} {4,D} {16,S}
+		2  C u0 p0 c0 {1,S} {3,D} {19,S}
+		3  O u0 p2 c0 {2,D}
+		4  C u0 p0 c0 {1,D} {5,S} {7,S}
+		5  C u0 p0 c0 {4,S} {6,D} {20,S}
+		6  O u0 p2 c0 {5,D}
+		7  C u0 p0 c0 {4,S} {8,S} {10,D}
+		8  C u0 p0 c0 {7,S} {9,D} {21,S}
+		9  O u0 p2 c0 {8,D}
+		10 C u0 p0 c0 {7,D} {11,S} {13,S}
+		11 C u0 p0 c0 {10,S} {12,D} {22,S}
+		12 O u0 p2 c0 {11,D}
+		13 C u0 p0 c0 {10,S} {14,S} {16,D}
+		14 C u0 p0 c0 {13,S} {15,D} {23,S}
+		15 O u0 p2 c0 {14,D}
+		16 C u0 p0 c0 {1,S} {13,D} {17,S}
+		17 C u0 p0 c0 {16,S} {18,D} {24,S}
+		18 O u0 p2 c0 {17,D}
+		19 H u0 p0 c0 {2,S}
+		20 H u0 p0 c0 {5,S}
+		21 H u0 p0 c0 {8,S}
+		22 H u0 p0 c0 {11,S}
+		23 H u0 p0 c0 {14,S}
+		24 H u0 p0 c0 {17,S}
+        """),
+)
+
+species(
+    label='1234formyl_56methoxy',
+    structure=adjacencyList(
+        """
+		1  C u0 p0 c0 {2,S} {4,D} {16,S}
+		2  C u0 p0 c0 {1,S} {3,D} {19,S}
+		3  O u0 p2 c0 {2,D}
+		4  C u0 p0 c0 {1,D} {5,S} {7,S}
+		5  C u0 p0 c0 {4,S} {6,D} {20,S}
+		6  O u0 p2 c0 {5,D}
+		7  C u0 p0 c0 {4,S} {8,S} {10,D}
+		8  C u0 p0 c0 {7,S} {9,D} {21,S}
+		9  O u0 p2 c0 {8,D}
+		10 C u0 p0 c0 {7,D} {11,S} {13,S}
+		11 C u0 p0 c0 {10,S} {12,D} {22,S}
+		12 O u0 p2 c0 {11,D}
+		13 C u0 p0 c0 {10,S} {14,S} {16,D}
+		14 O u0 p2 c0 {13,S} {15,S}
+		15 C u0 p0 c0 {14,S} {23,S} {24,S} {25,S}
+		16 C u0 p0 c0 {1,S} {13,D} {17,S}
+		17 O u0 p2 c0 {16,S} {18,S}
+		18 C u0 p0 c0 {17,S} {26,S} {27,S} {28,S}
+		19 H u0 p0 c0 {2,S}
+		20 H u0 p0 c0 {5,S}
+		21 H u0 p0 c0 {8,S}
+		22 H u0 p0 c0 {11,S}
+		23 H u0 p0 c0 {15,S}
+		24 H u0 p0 c0 {15,S}
+		25 H u0 p0 c0 {15,S}
+		26 H u0 p0 c0 {18,S}
+		27 H u0 p0 c0 {18,S}
+		28 H u0 p0 c0 {18,S}
+        """),
+)
+
+species(
+    label='12formyl_34vinyl_56methoxy',
+    structure=adjacencyList(
+        """
+		1  C u0 p0 c0 {2,S} {4,D} {16,S}
+		2  C u0 p0 c0 {1,S} {3,D} {19,S}
+		3  O u0 p2 c0 {2,D}
+		4  C u0 p0 c0 {1,D} {5,S} {7,S}
+		5  C u0 p0 c0 {4,S} {6,D} {20,S}
+		6  O u0 p2 c0 {5,D}
+		7  C u0 p0 c0 {4,S} {8,S} {10,D}
+		8  C u0 p0 c0 {7,S} {9,D} {21,S}
+		9  C u0 p0 c0 {8,D} {22,S} {23,S}
+		10 C u0 p0 c0 {7,D} {11,S} {13,S}
+		11 C u0 p0 c0 {10,S} {12,D} {24,S}
+		12 C u0 p0 c0 {11,D} {25,S} {26,S}
+		13 C u0 p0 c0 {10,S} {14,S} {16,D}
+		14 O u0 p2 c0 {13,S} {15,S}
+		15 C u0 p0 c0 {14,S} {27,S} {28,S} {29,S}
+		16 C u0 p0 c0 {1,S} {13,D} {17,S}
+		17 O u0 p2 c0 {16,S} {18,S}
+		18 C u0 p0 c0 {17,S} {30,S} {31,S} {32,S}
+		19 H u0 p0 c0 {2,S}
+		20 H u0 p0 c0 {5,S}
+		21 H u0 p0 c0 {8,S}
+		22 H u0 p0 c0 {9,S}
+		23 H u0 p0 c0 {9,S}
+		24 H u0 p0 c0 {11,S}
+		25 H u0 p0 c0 {12,S}
+		26 H u0 p0 c0 {12,S}
+		27 H u0 p0 c0 {15,S}
+		28 H u0 p0 c0 {15,S}
+		29 H u0 p0 c0 {15,S}
+		30 H u0 p0 c0 {18,S}
+		31 H u0 p0 c0 {18,S}
+		32 H u0 p0 c0 {18,S}
+        """),
+)
